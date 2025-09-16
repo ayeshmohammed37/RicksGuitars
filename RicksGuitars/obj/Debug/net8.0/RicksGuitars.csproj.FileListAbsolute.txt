@@ -26,3 +26,4 @@ C:\Users\ayesh\WorkStaion\C#\RicksGuitars\RicksGuitars\obj\Debug\net8.0\refint\R
 C:\Users\ayesh\WorkStaion\C#\RicksGuitars\RicksGuitars\obj\Debug\net8.0\RicksGuitars.pdb
 C:\Users\ayesh\WorkStaion\C#\RicksGuitars\RicksGuitars\obj\Debug\net8.0\RicksGuitars.genruntimeconfig.cache
 C:\Users\ayesh\WorkStaion\C#\RicksGuitars\RicksGuitars\obj\Debug\net8.0\ref\RicksGuitars.dll
+C:\Users\ayesh\WorkStaion\C#\RicksGuitars\RicksGuitars\obj\Debug\net8.0\RicksGuitars.sourcelink.json

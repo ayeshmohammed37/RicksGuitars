@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RicksGuitars")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+175759d49e5bd41375fa0c462e02dda416f5b019")]
 [assembly: System.Reflection.AssemblyProductAttribute("RicksGuitars")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RicksGuitars")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
