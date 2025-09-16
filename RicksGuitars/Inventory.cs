@@ -15,13 +15,13 @@ namespace RicksGuitars
             guitarList = new List<Guitar>();
         }
 
-        public void AddGuitar(string serialNumber,double price,
-            Builder builder, string model,Type type, Wood backWood, Wood topWood)
-        {
-            Guitar guitar = new Guitar(serialNumber, price, builder, model,type, backWood, topWood);
+        //public void AddGuitar(string serialNumber,double price,
+        //    Builder builder, string model,Type type, Wood backWood, Wood topWood)
+        //{
+        //    Guitar guitar = new Guitar(serialNumber, price, builder, model,type, backWood, topWood);
 
-            guitarList.Add(guitar);
-        }
+        //    guitarList.Add(guitar);
+        //}
 
         public void AddGuitar(string serialNumber, double price, GuitarSpec guitarSpec)
         {

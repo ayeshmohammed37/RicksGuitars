@@ -11,14 +11,16 @@ namespace RicksGuitars
     {
         private Builder builder;
         private string model;
+        private int numStrings;
         private Type type;
         private Wood backWood;
         private Wood topWood;
 
-        public GuitarSpec(Builder builder, string model, Type type, Wood backWood, Wood topWood)
+        public GuitarSpec(Builder builder, string model,int numstrings, Type type, Wood backWood, Wood topWood)
         {
             Builder = builder;
             Model = model;
+            NumStrings = numstrings;
             Type = type;
             BackWood = backWood;
             TopWood = topWood;
@@ -28,6 +30,7 @@ namespace RicksGuitars
         {
             Builder = guitarSpec.Builder;
             Model = guitarSpec.Model;
+            NumStrings = guitarSpec.NumStrings; 
             Type = guitarSpec.Type;
             BackWood = guitarSpec.BackWood;
             TopWood = guitarSpec.TopWood;
@@ -38,12 +41,13 @@ namespace RicksGuitars
         public Type Type { get => type; private set => type = value; }
         public Wood BackWood { get => backWood; private set => backWood = value; }
         public Wood TopWood { get => topWood; private set => topWood = value; }
+        public int NumStrings { get => numStrings; private set => numStrings = value; }
 
         public override bool Equals(object? obj)
         {
             if (obj is GuitarSpec guitarSpec)
             {
-                if (guitarSpec.Builder == Builder && guitarSpec.Model == Model && Type == guitarSpec.Type && guitarSpec.BackWood == BackWood && guitarSpec.TopWood == TopWood)
+                if (guitarSpec.Builder == Builder && guitarSpec.Model == Model && Type == guitarSpec.Type && guitarSpec.BackWood == BackWood && guitarSpec.TopWood == TopWood && guitarSpec.NumStrings == NumStrings)
                     return true;
             }
                 return false;
